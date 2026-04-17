@@ -11,15 +11,13 @@ It includes structured manual test cases and a full automation framework using *
 ---
 
 ## 🧱 Tech Stack
-| Category | Tools |
-|---------|-------|
-| Programming Language | Java |
-| Automation | Selenium WebDriver |
-| Test Framework | TestNG |
-| Build Tool | Maven |
-| Design Pattern | Page Object Model (POM) |
-| IDE | IntelliJ IDEA |
-| Manual Testing | Test Cases, Bug Reports, Scenarios |
+## Tools and Technologies
+- Java
+- Selenium WebDriver
+- TestNG
+- Maven
+- Page Object Model (POM)
+- Manual Testing
 
 ---
 
@@ -91,7 +89,7 @@ Manual testing files include:
 
 ### 1️⃣ Clone the project
 ```bash
-git clone https://github.com/HAGER898/Final_project_swag_labs.git
+git clone https://github.com/AhmedYousrySallam/Final_Project_Swag_Labs.git
 ```
 
 ### 2️⃣ Install Maven dependencies
