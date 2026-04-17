@@ -4,13 +4,27 @@
   <img src="https://i.ytimg.com/vi/hypO6hgSzP4/sddefault.jpg" width="450"/>
 </p>
 
-## 📌 Overview
-This project demonstrates a complete **Software Testing lifecycle** (Manual + Automation) on the **Swag Labs (saucedemo.com)** application.  
-It includes structured manual test cases and a full automation framework using **Java – Selenium – TestNG – Maven – POM**.
+This project demonstrates both manual and automation testing for the Swag Labs web application.
 
----
+## Project Scope
+The project includes:
+- Manual test cases
+- Test scenarios
+- Expected vs Actual Results
+- Functional testing
+- UI validation
+- Error message validation
+- End-to-end workflow testing
+- Automation testing using Selenium WebDriver, TestNG, Maven, and Page Object Model (POM)
 
-## 🧱 Tech Stack
+## Covered Modules
+- Login
+- Products
+- Add to Cart
+- Sorting
+- Checkout
+- Complete Order Flow
+
 ## Tools and Technologies
 - Java
 - Selenium WebDriver
