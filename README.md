@@ -47,9 +47,9 @@ Test-Automation/
     ├── LoginPage.java          # Page Object for Login Page
     ├── ProductsPage.java       # Page Object for Products Page
     └── ProductsPageTest.java   # TestNG test cases for Products Page
-    ├── checkoutinfo.java
-    ├── checkoutoverview.java 
-    ├── checkoutcomplete.Java 
+    ├── CheckoutInfo.java
+    ├── CheckoutOverview.java 
+    ├── CheckoutComplete.java 
 ```
 
 ---
@@ -65,7 +65,7 @@ Test-Automation/
 Manual testing files include:
 - Login Test Cases  
 - Products Page Test Cases
-- checkout Test cases  
+- Checkout Test Cases  
 - Test Scenarios  
 - Expected vs Actual Results 
 ---
@@ -87,7 +87,7 @@ Manual testing files include:
 - Buttons / UI element checks
 
   
-### check out 
+### Checkout
 - Valid checkout
 - Required fields validation
 - Error messages
@@ -115,10 +115,6 @@ mvn clean install
 ```bash
 mvn test
 ```
-
----
-
-
 
 ---
 
