@@ -6,7 +6,7 @@
 
 This project demonstrates both manual and automation testing for the Swag Labs web application.
 
-## Project Scope
+## 🎯 Project Scope
 The project includes:
 - Manual test cases
 - Test scenarios
@@ -17,7 +17,7 @@ The project includes:
 - End-to-end workflow testing
 - Automation testing using Selenium WebDriver, TestNG, Maven, and Page Object Model (POM)
 
-## Covered Modules
+## 📌 Covered Modules
 - Login
 - Products
 - Add to Cart
@@ -25,7 +25,7 @@ The project includes:
 - Checkout
 - Complete Order Flow
 
-## Tools and Technologies
+## 🛠️ Tools and Technologies
 - Java
 - Selenium WebDriver
 - TestNG
@@ -87,7 +87,7 @@ Manual testing files include:
 - Buttons / UI element checks
 
   
-### Checkout
+### 💳 Checkout
 - Valid checkout
 - Required fields validation
 - Error messages
