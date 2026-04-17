@@ -24,6 +24,7 @@ The project includes:
 - Sorting
 - Checkout
 - Complete Order Flow
+- Logout
 
 ## 🛠️ Tools and Technologies
 - Java
@@ -36,20 +37,31 @@ The project includes:
 ---
 
 ## 📁 Project Structure
-```
-Test-Automation/
+```text
+Final_Project_Swag_Labs/
 │
-├── org.example
-│   └── Main
+├── Automation Testing/
+│   ├── pom.xml
+│   └── src/
+│       ├── main/java/Swag/
+│       │   ├── LoginData.java
+│       │   ├── LoginPage.java
+│       │   ├── ProductsPage.java
+│       │   └── LogoutPage.java
+│       └── test/java/Swag/
+│           ├── BaseTest.java
+│           ├── LoginPageTest.java
+│           ├── ProductsPageTest.java
+│           ├── CheckoutFlowTest.java
+│           ├── MultiUserCheckoutTest.java
+│           └── MultiUserLogoutTest.java
 │
-└── Swag
-    ├── LoginData.java          # Test data (valid/invalid login)
-    ├── LoginPage.java          # Page Object for Login Page
-    ├── ProductsPage.java       # Page Object for Products Page
-    └── ProductsPageTest.java   # TestNG test cases for Products Page
-    ├── CheckoutInfo.java
-    ├── CheckoutOverview.java 
-    ├── CheckoutComplete.java 
+└── Manual Testing/
+    ├── Login Test Cases
+    ├── Products Page Test Cases
+    ├── Checkout Test Cases
+    ├── Test Scenarios
+    └── Expected vs Actual Results
 ```
 
 ---
@@ -67,35 +79,37 @@ Manual testing files include:
 - Products Page Test Cases
 - Checkout Test Cases  
 - Test Scenarios  
-- Expected vs Actual Results 
+- Expected vs Actual Results
+
 ---
 
 ## 🤖 Automation Testing Coverage
 
 ### 🔐 Login Page
-- Valid login  
-- Invalid login (wrong username/password)  
-- Locked user validation  
-- Empty username/password validation  
-- Assertion of displayed error messages  
+- Valid login
+- Invalid login (wrong username/password)
+- Locked user validation
+- Multiple user login scenarios
+- Assertion of displayed error messages
 
 ### 🛒 Products Page
-- Validate product list  
-- Add to cart functionality  
-- Product name & price assertions  
-- Sorting tests (A → Z, Z → A, Low → High, High → Low)  
-- Buttons / UI element checks
+- Validate product list
+- Add to cart functionality
+- Product name and price assertions
+- Sorting tests (A → Z, Z → A, Low → High, High → Low)
+- Cart badge and cart content validation
+- Logout from products page
 
-  
 ### 💳 Checkout
 - Valid checkout
 - Required fields validation
 - Error messages
-- Price & totals validation
+- Price and totals validation
 - Verify items in overview
-- Continue / Cancel actions
+- Continue and cancel actions
 - Complete order
 - Confirm success page
+- Multi-user checkout scenarios
 
 ---
 
@@ -106,12 +120,17 @@ Manual testing files include:
 git clone https://github.com/AhmedYousrySallam/Final_Project_Swag_Labs.git
 ```
 
-### 2️⃣ Install Maven dependencies
+### 2️⃣ Navigate to the automation project
+```bash
+cd Final_Project_Swag_Labs/Automation\ Testing
+```
+
+### 3️⃣ Install Maven dependencies
 ```bash
 mvn clean install
 ```
 
-### 3️⃣ Run tests with TestNG
+### 4️⃣ Run tests with TestNG
 ```bash
 mvn test
 ```
